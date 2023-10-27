@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NetworkClock.cpp.obj": [
+			"NetworkClock.init.gen.cpp.obj",
+			"NetworkClockPlayerController.gen.cpp.obj",
+			"NetworkClock.cpp.obj",
+			"NetworkClockPlayerController.cpp.obj"
+		]
+	}
+}

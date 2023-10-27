@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NetworkClock.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\eCode\Documents\Unreal Projects\NetClockDemo\Intermediate\Build\Win64\x64\NetClockDemoEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\eCode\Documents\Unreal Projects\NetClockDemo\Plugins\NetworkClock\Intermediate\Build\Win64\x64\UnrealEditor\Development\NetworkClock\Module.NetworkClock.cpp.obj"
+"C:\Users\eCode\Documents\Unreal Projects\NetClockDemo\Plugins\NetworkClock\Intermediate\Build\Win64\x64\UnrealEditor\Development\NetworkClock\Default.rc2.res"
+/OUT:"C:\Users\eCode\Documents\Unreal Projects\NetClockDemo\Plugins\NetworkClock\Intermediate\Build\Win64\x64\UnrealEditor\Development\NetworkClock\UnrealEditor-NetworkClock.lib"

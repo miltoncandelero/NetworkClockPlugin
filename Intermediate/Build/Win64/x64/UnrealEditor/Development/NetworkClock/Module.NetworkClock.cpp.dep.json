@@ -1,0 +1,30 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\networkclock\\module.networkclock.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\intermediate\\build\\win64\\x64\\netclockdemoeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\networkclock\\definitions.networkclock.h",
+            "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\intermediate\\build\\win64\\unrealeditor\\inc\\networkclock\\uht\\networkclock.init.gen.cpp",
+            "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\intermediate\\build\\win64\\unrealeditor\\inc\\networkclock\\uht\\networkclockplayercontroller.gen.cpp",
+            "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\source\\networkclock\\public\\networkclockplayercontroller.h",
+            "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\intermediate\\build\\win64\\unrealeditor\\inc\\networkclock\\uht\\networkclockplayercontroller.generated.h",
+            "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\intermediate\\build\\win64\\unrealeditor\\inc\\networkclock\\uht\\networkclockstatics.gen.cpp",
+            "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\source\\networkclock\\public\\networkclockstatics.h",
+            "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\intermediate\\build\\win64\\unrealeditor\\inc\\networkclock\\uht\\networkclockstatics.generated.h",
+            "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\source\\networkclock\\private\\networkclock.cpp",
+            "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\source\\networkclock\\public\\networkclock.h",
+            "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\source\\networkclock\\public\\networkclocklog.h",
+            "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\source\\networkclock\\private\\networkclockplayercontroller.cpp",
+            "e:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
+            "e:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstate.generated.h",
+            "e:\\ue_5.3\\engine\\source\\runtime\\core\\public\\logging\\structuredlog.h",
+            "e:\\ue_5.3\\engine\\source\\runtime\\core\\public\\serialization\\compactbinary.h",
+            "e:\\ue_5.3\\engine\\source\\runtime\\core\\public\\serialization\\compactbinarywriter.h",
+            "c:\\users\\ecode\\documents\\unreal projects\\netclockdemo\\plugins\\networkclock\\source\\networkclock\\private\\networkclockstatics.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
