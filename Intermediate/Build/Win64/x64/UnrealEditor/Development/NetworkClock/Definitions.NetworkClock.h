@@ -1,4 +1,4 @@
-#include "C:/Users/eCode/Documents/Unreal Projects/NetClockDemo/Intermediate/Build/Win64/x64/NetClockDemoEditor/Development/Engine/SharedDefinitions.Engine.Cpp20.h"
+#include "M:/Projects/Unreal/NetworkClockDemo/Intermediate/Build/Win64/x64/NetworkClockDemoEditor/Development/Engine/SharedDefinitions.Engine.Cpp20.h"
 #undef UE_IS_ENGINE_MODULE
 #undef DEPRECATED_FORGAME
 #define DEPRECATED_FORGAME DEPRECATED
@@ -13,8 +13,8 @@
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_1 0
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_2 0
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_3 0
-#define UE_PROJECT_NAME NetClockDemo
-#define UE_TARGET_NAME NetClockDemoEditor
+#define UE_PROJECT_NAME NetworkClockDemo
+#define UE_TARGET_NAME NetworkClockDemoEditor
 #define UE_MODULE_NAME "NetworkClock"
 #define UE_PLUGIN_NAME "NetworkClock"
 #define IMPLEMENT_ENCRYPTION_KEY_REGISTRATION() 
