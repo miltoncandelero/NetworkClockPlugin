@@ -1,18 +1,24 @@
-﻿// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Copyright 2023 Elemental Code (Milton Candelero). All Rights Reserved.
 
 #include "NetworkClockStatics.h"
 #include "NetworkClockPlayerController.h"
 #include "NetworkClockLog.h"
 #include "Logging/StructuredLog.h"
+#include "Engine/World.h"
+#include "UObject/Object.h"
+#include "Engine/Engine.h"
+#include "Engine/GameInstance.h"
 
-float UNetworkClockStatics::GetNetworkWorldTime(UObject* WorldContextObject)
+
+
+float UNetworkClockStatics::GetNetworkWorldTime(const UObject* WorldContextObject)
 {
 	if (!WorldContextObject) return 0.f;
-	UWorld* const World = GEngine->GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::ReturnNull);
+	const UWorld* World = GEngine->GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::ReturnNull);
 	if (!World) return 0.f;
-	UGameInstance* const GameInstance = World->GetGameInstance();
+	const UGameInstance* GameInstance = World->GetGameInstance();
 	if (!GameInstance) return World->GetTimeSeconds();
-	ANetworkClockPlayerController* const PlayerController = Cast<ANetworkClockPlayerController>(GameInstance->GetFirstLocalPlayerController(World));
+	const ANetworkClockPlayerController* PlayerController = Cast<ANetworkClockPlayerController>(GameInstance->GetFirstLocalPlayerController(World));
 	if (!PlayerController)
 	{
 		UE_LOGFMT(LogNetworkClock, Warning, "No NetworkClockPlayerController found in GameInstance while getting Network World Time. Returning World->GetTimeSeconds()");
@@ -21,14 +27,14 @@ float UNetworkClockStatics::GetNetworkWorldTime(UObject* WorldContextObject)
 	return PlayerController->GetNetworkWorldTime();
 }
 
-float UNetworkClockStatics::GetNetworkWorldTimeDelta(UObject* WorldContextObject)
+float UNetworkClockStatics::GetNetworkWorldTimeDelta(const UObject* WorldContextObject)
 {
 	if (!WorldContextObject) return 0.f;
-	UWorld* const World = GEngine->GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::ReturnNull);
+	const UWorld* World = GEngine->GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::ReturnNull);
 	if (!World) return 0.f;
-	UGameInstance* const GameInstance = World->GetGameInstance();
+	const UGameInstance* GameInstance = World->GetGameInstance();
 	if (!GameInstance) return 0.f;
-	ANetworkClockPlayerController* const PlayerController = Cast<ANetworkClockPlayerController>(GameInstance->GetFirstLocalPlayerController(World));
+	const ANetworkClockPlayerController* PlayerController = Cast<ANetworkClockPlayerController>(GameInstance->GetFirstLocalPlayerController(World));
 	if (!PlayerController)
 	{
 		UE_LOGFMT(LogNetworkClock, Warning, "No NetworkClockPlayerController found in GameInstance while getting Network World Time Delta. Returning 0.f");

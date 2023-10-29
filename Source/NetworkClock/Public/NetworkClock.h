@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright 2023 Elemental Code (Milton Candelero). All Rights Reserved.
 
 #pragma once
 

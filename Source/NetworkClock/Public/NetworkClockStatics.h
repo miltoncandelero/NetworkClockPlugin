@@ -1,4 +1,4 @@
-﻿// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Copyright 2023 Elemental Code (Milton Candelero). All Rights Reserved.
 
 #pragma once
 
@@ -16,10 +16,10 @@ class NETWORKCLOCK_API UNetworkClockStatics : public UBlueprintFunctionLibrary
 	
 	/** Returns the current network time. */
 	UFUNCTION(BlueprintPure, Category=NetworkClock, meta=(WorldContext="WorldContextObject"))
-	static float GetNetworkWorldTime(UObject* WorldContextObject);
+	static float GetNetworkWorldTime(const UObject* WorldContextObject);
 	
 	/** Returns the current network time delta. (The difference between client's and server's World->GetTime()) */
 	UFUNCTION(BlueprintPure, Category=NetworkClock, meta=(WorldContext="WorldContextObject"))
-	static float GetNetworkWorldTimeDelta(UObject* WorldContextObject);
+	static float GetNetworkWorldTimeDelta(const UObject* WorldContextObject);
 	
 };

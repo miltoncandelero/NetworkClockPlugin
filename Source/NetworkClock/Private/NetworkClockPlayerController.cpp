@@ -1,11 +1,12 @@
-﻿// Fill out your copyright notice in the Description page of Project Settings.
-
+﻿// Copyright 2023 Elemental Code (Milton Candelero). All Rights Reserved.
 
 #include "NetworkClockPlayerController.h"
 
 #include "GameFramework/PlayerState.h"
 #include "Logging/StructuredLog.h"
 #include "NetworkClockLog.h"
+#include "Engine/World.h"
+#include "TimerManager.h" 
 
 #if WITH_EDITOR
 void ANetworkClockPlayerController::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
